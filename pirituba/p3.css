@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+#imagem-fundo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -100000;
+}
+
+#menu {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 24px;
+  box-sizing: border-box;
+  width: 100%;
+  z-index: 1;
+}
+
+#cabecalho-img {
+height: 72px;
+color: aliceblue;
+}
+
+#cabecalho-menu {
+  display: flex;
+  gap: 39px;
+}
+
+#cabecalho-menu-item {
+  font-family: 'righteous', sans-serif;
+  color: white;
+  font-weight: 550;
+  font-size: 18px;
+}
+
+#cabecalho-menu-item:hover {
+  font-size: 23px;
+  transition: 1s;
+}
+
+#menu {
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+background:#003622;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+z-index: 10000000;
+}
+
+#capa-titulo {
+  font-family: 'Don Graffiti', cursive;
+  letter-spacing: 0.04em;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 150px;
+  text-shadow:7px 5px 0px #cb3838;
+  color: #ffffff;
+  padding-left: 10px;
+  padding-top: 200px;
+  display:inline-flex;
+  position:sticky;
+   }
+
+  #capa {
+  width: 100%;
+  height: 500px;
+  background-color:#00362285;
+   }
+
+   #conteudo-principal {
+    background-color:#00362285;
+
+  }
+
+
+
+#conteudo-principal-escrito {
+  display: inline-flex;
+  line-height: 20px;
+  border:20px;
+  text-align: left;
+  background: #FFFFFF;
+  box-shadow: -17px 0px 30px rgba(0, 0, 0, 0.42);
+  border-radius: 0px 88px 88px 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 100%;
+  gap:30px;
+}
+
+#conteudo-principal-escrito1 {
+  display:inline-flex;
+  gap:30px;
+}
+
+ 
+#conteudo-principal-escrito-paragrafo {
+  font-family: 'Righteous';
+  font-style: normal;
+  font-size: 30px; 
+  line-height: 27px;
+  text-align:left;
+  letter-spacing: 0.015em;
+  color:#000000;
+  padding-left: 100px;
+  padding-right: 100px;
+  letter-spacing: 0.065em;
+  justify-content: space-around;
+  position: relative;
+  display: flex;
+  padding-bottom: 10px;
+ }
+
+
+#imagem {
+  height: 200px;
+  position: relative;
+  box-shadow: inset 0px 12px 21px rgba(0, 0, 0, 0.36);
+  border-radius: 88px 88px 88px 0px;
+}
+
+body::-webkit-scrollbar {
+  width: 17px;              
+}
+body::-webkit-scrollbar-track {
+  background:#3c1717ec;       
+  box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.329);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #cb3838;   
+  border-radius: 20px;      
+  border: 2px solid #3c1717ec;  
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  background-color:#cb3838;
+  display: inline-flex;
+  gap:50px;
+  width: 100%;
+  padding-bottom: 20px;
+  box-shadow: 0px -4px 13px rgba(0, 0, 0, 0.25);
+}
+
+#referencias {
+  padding-left: 20px;
+}
+
+#referencias-link{
+  width: 100%px;
+  height: 63px;
+  left: 1028px;
+  top: 922px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+p{
+  font-family: 'righteous';
+  color: #ffffff;
+  font-size: 30px;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+a {
+  font-family: 'righteous';
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 20px;
+  position: relative;
+  padding-right: 15px;
+}
+
+#rede-social {
+  width: 100%px;
+  height: 63px;
+  left: 1028px;
+  top: 922px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 25px;
+  flex-direction: row;
+  text-align: left;
+  justify-content: space-around;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  flex-wrap: nowrap;
+  text-align: center;
+  display: inline-flex;
+}
+
+#footer-imagem {
+  align-items: left;
+  position: relative;
+}
+
+
+#mapa {
+  box-align: center;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  border: 3px solid #FFFFFF;
+  border-radius: 20px;
+  align-items: center;
+  position: relative;
+  padding-bottom: 40px;
+}

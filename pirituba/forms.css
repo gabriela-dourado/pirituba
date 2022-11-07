@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+#imagem-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100000;
+  }
+
+body{
+    font-family: 'Righteous';
+    font-size: 20px;
+}
+.box{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #aa2d2db0;
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    padding-top: 600px;
+}
+fieldset{
+    border: 3px solid #003622;
+    border-radius: 25px;
+}
+legend{
+    border: 1px solid #003622;
+    padding: 30px;
+    text-align: center;
+    background-color: #003622;
+    border-radius: 25px;
+    font-family: 'Don Graffiti', cursive;
+    font-size: 40px;
+    letter-spacing: -0.03px;
+}
+.inputBox{
+    position: relative;
+}
+.inputUser{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #003622;
+}
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+#submit{
+    background-image: linear-gradient(to right,rgb(0, 78, 39), rgb(0, 71, 60));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: 'Righteous';
+    font-size: 30px;
+    letter-spacing: 0.03px;
+}
+#submit:hover{
+    background-image: linear-gradient(to right,rgb(0, 78, 39), rgb(0, 71, 60));
+}
+
+
+#menu {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    box-sizing: border-box;
+    width: 100%;
+    z-index: 1;
+}
+
+#cabecalho-img {
+height: 72px;
+color: aliceblue;
+}
+
+#cabecalho-menu {
+    display: flex;
+    gap: 39px;
+}
+
+#cabecalho-menu-item {
+    font-family: 'righteous', sans-serif;
+    color: white;
+    font-weight: 550;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#cabecalho-menu-item:hover {
+  font-size: 23px;
+  transition: 1s;
+}
+
+#menu {
+  border-radius: 20px;
+  background:#003622;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: 10000000;
+}
+
+body::-webkit-scrollbar {
+    width: 17px;              
+  }
+  body::-webkit-scrollbar-track {
+    background:#3c1717ec;       
+    box-shadow: 6px 5px 4px rgba(0, 0, 0, 0.329);
+  }
+  body::-webkit-scrollbar-thumb {
+    background-color: #cb3838;   
+    border-radius: 20px;      
+    border: 2px solid #3c1717ec;  
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  }
